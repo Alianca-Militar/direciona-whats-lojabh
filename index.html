@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Esquenta Black — Fale com um vendedor | Meia Lua &amp; D'Barreto</title>
+<meta name="description" content="Esquenta Black da Meia Lua e D'Barreto Confecções. Fale com um vendedor pelo WhatsApp e garanta seus uniformes civis e militares com condições especiais.">
+<meta name="robots" content="index, follow">
+
+<!-- Pré-visualização ao compartilhar o link -->
+<meta property="og:title" content="Esquenta Black — Meia Lua & D'Barreto">
+<meta property="og:description" content="Condições especiais em uniformes civis e militares. Fale com um vendedor pelo WhatsApp.">
+<meta property="og:url" content="https://vendedor.meialuadbarreto.com.br/">
+<meta property="og:type" content="website">
+
+<!-- ======================================================================
+     VERIFICAÇÃO DE DOMÍNIO DA META / PIXEL / GOOGLE ANALYTICS
+     Se for usar, cole aqui dentro do <head> os códigos do Pixel da Meta
+     e/ou do Google Analytics. O clique no botão já dispara os eventos
+     "Contact" (Pixel) e "chamar_vendedor" (Analytics) automaticamente.
+     ====================================================================== -->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<style>
+  :root {
+    --preto: #0b0b0c;
+    --grafite: #141417;
+    --linha: #26262b;
+    --laranja: #ff5a1f;
+    --verde: #25d366;
+    --claro: #ececee;
+    --apagado: #8e8e96;
+    --branco: #ffffff;
+    --display: "Barlow Condensed", "Arial Narrow", Impact, sans-serif;
+    --corpo: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+    --largura: 1120px;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--preto);
+    color: var(--claro);
+    font-family: var(--corpo);
+    font-size: 16px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .container {
+    width: 100%;
+    max-width: var(--largura);
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  a { color: var(--laranja); }
+
+  /* ---------- Cabeçalho ---------- */
+  .topo {
+    background: var(--preto);
+    border-bottom: 2px solid var(--laranja);
+  }
+  .topo .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+  .marca {
+    font-family: var(--display);
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--branco);
+    text-decoration: none;
+    line-height: 1.1;
+  }
+  .marca .chave { color: var(--laranja); }
+  .marca small {
+    display: block;
+    font-family: var(--corpo);
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.22em;
+    color: var(--apagado);
+    text-transform: uppercase;
+    margin-top: 3px;
+  }
+  .topo .voltar {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--claro);
+    text-decoration: none;
+  }
+  .topo .voltar:hover { color: var(--laranja); }
+
+  /* ---------- Capa da campanha ---------- */
+  .capa {
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid var(--linha);
+    padding: 80px 0 72px;
+  }
+  .capa .relevo {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    pointer-events: none;
+  }
+  .capa .container { position: relative; z-index: 2; }
+
+  .etiqueta {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: var(--preto);
+    background: var(--laranja);
+    padding: 5px 10px;
+    margin: 0 0 22px;
+  }
+
+  .capa h1 {
+    font-family: var(--display);
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: clamp(48px, 10vw, 104px);
+    line-height: 0.92;
+    margin: 0 0 22px;
+    color: var(--branco);
+  }
+  .capa h1 span { color: var(--laranja); display: block; }
+
+  .capa .chamada {
+    max-width: 52ch;
+    font-size: 18px;
+    color: var(--apagado);
+    margin: 0 0 34px;
+  }
+  .capa .chamada strong { color: var(--claro); font-weight: 600; }
+
+  /* ---------- Botão WhatsApp ---------- */
+  .botao-zap {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    font-family: var(--display);
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--preto);
+    background: var(--verde);
+    border: 2px solid var(--verde);
+    padding: 18px 36px;
+    text-decoration: none;
+    transition: background 0.15s ease, color 0.15s ease, transform 0.15s ease;
+  }
+  .botao-zap svg { width: 28px; height: 28px; fill: currentColor; flex: 0 0 auto; }
+  .botao-zap:hover { background: transparent; color: var(--verde); }
+  .botao-zap:active { transform: scale(0.98); }
+  .botao-zap:focus-visible { outline: 2px solid var(--laranja); outline-offset: 4px; }
+
+  .aviso-botao {
+    font-size: 13px;
+    color: var(--apagado);
+    margin: 14px 0 0;
+  }
+
+  /* ---------- Seções ---------- */
+  main section.bloco-secao {
+    padding: 60px 0;
+    border-bottom: 1px solid var(--linha);
+  }
+  .rotulo {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: var(--apagado);
+    margin: 0 0 10px;
+  }
+  h2 {
+    font-family: var(--display);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    font-size: clamp(26px, 3.6vw, 40px);
+    line-height: 1.05;
+    margin: 0 0 24px;
+    color: var(--branco);
+  }
+  h3 {
+    font-family: var(--display);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 21px;
+    margin: 0 0 8px;
+    color: var(--branco);
+  }
+
+  .grade {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+  }
+  .bloco {
+    background: var(--grafite);
+    border: 1px solid var(--linha);
+    border-top: 3px solid var(--laranja);
+    padding: 24px 22px;
+  }
+  .bloco p { color: var(--apagado); margin: 0; }
+  .bloco .numero {
+    font-family: var(--display);
+    font-size: 34px;
+    font-weight: 700;
+    color: var(--laranja);
+    line-height: 1;
+    margin-bottom: 10px;
+  }
+
+  .fechamento { text-align: center; }
+  .fechamento p { color: var(--apagado); max-width: 52ch; margin: 0 auto 28px; }
+
+  /* ---------- Rodapé ---------- */
+  .rodape {
+    background: #070708;
+    border-top: 2px solid var(--laranja);
+    padding: 40px 0 28px;
+    font-size: 14px;
+  }
+  .rodape address {
+    font-style: normal;
+    color: #c3c3ca;
+    line-height: 1.8;
+  }
+  .rodape .razao-social { color: var(--branco); font-weight: 600; display: block; }
+  .rodape a { color: #c3c3ca; text-decoration: none; }
+  .rodape a:hover { color: var(--laranja); }
+  .rodape .assinatura {
+    margin-top: 26px;
+    padding-top: 16px;
+    border-top: 1px solid var(--linha);
+    font-size: 12px;
+    color: #6f6f77;
+  }
+
+  @media (max-width: 640px) {
+    .capa { padding: 52px 0 48px; }
+    main section.bloco-secao { padding: 44px 0; }
+    .botao-zap { width: 100%; padding: 18px 20px; font-size: 20px; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    * { transition: none !important; }
+  }
+</style>
+</head>
+<body>
+
+<header class="topo">
+  <div class="container">
+    <a class="marca" href="https://meialuadbarreto.com.br/">
+      <span class="chave">[</span> Meia Lua &amp; D'Barreto <span class="chave">]</span>
+      <small>Confecções · desde 1997</small>
+    </a>
+    <a class="voltar" href="https://meialuadbarreto.com.br/">Site principal →</a>
+  </div>
+</header>
+
+<main>
+
+  <section class="capa">
+    <svg class="relevo" viewBox="0 0 1200 480" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+      <defs>
+        <path id="curva" d="M-80,70 C160,-10 330,130 520,95 C720,58 880,-40 1280,55" />
+      </defs>
+      <g fill="none" stroke="#26262b" stroke-width="1.1">
+        <use href="#curva" y="0"></use><use href="#curva" y="42"></use>
+        <use href="#curva" y="84"></use><use href="#curva" y="126"></use>
+        <use href="#curva" y="168"></use><use href="#curva" y="210"></use>
+        <use href="#curva" y="252"></use><use href="#curva" y="294"></use>
+        <use href="#curva" y="336"></use><use href="#curva" y="378"></use>
+        <use href="#curva" y="420"></use>
+      </g>
+      <g fill="none" stroke="#ff5a1f" stroke-width="1.4" opacity="0.35">
+        <use href="#curva" y="168"></use>
+      </g>
+    </svg>
+
+    <div class="container">
+      <p class="etiqueta">Campanha por tempo limitado</p>
+      <h1>Esquenta <span>Black</span></h1>
+      <p class="chamada">Condições especiais em <strong>uniformes civis e militares</strong>, fardamento, calçados e acessórios. Fale agora com um vendedor da <strong>Meia Lua &amp; D'Barreto</strong> e faça seu pedido pelo WhatsApp.</p>
+
+      <a class="botao-zap js-zap" href="#" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.75-.86-2.02-.96-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.25-.46-2.38-1.47-.88-.79-1.47-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.6-.92-2.2-.24-.58-.49-.5-.67-.5h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.08.15.2 2.1 3.2 5.08 4.49.71.3 1.27.49 1.7.63.72.23 1.37.2 1.88.12.57-.09 1.75-.72 2-1.41.25-.69.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35zM12.04 21.5h-.01a9.45 9.45 0 0 1-4.82-1.32l-.35-.2-3.58.94.96-3.49-.23-.36a9.43 9.43 0 0 1-1.45-5.04c0-5.22 4.25-9.47 9.48-9.47a9.4 9.4 0 0 1 6.7 2.78 9.4 9.4 0 0 1 2.77 6.7c0 5.22-4.25 9.46-9.47 9.46zm8.06-17.53A11.33 11.33 0 0 0 12.04.63C5.76.63.65 5.74.65 12.02c0 2.01.52 3.97 1.52 5.7L.55 23.63l6.05-1.59a11.37 11.37 0 0 0 5.44 1.39h.01c6.28 0 11.39-5.11 11.39-11.39 0-3.04-1.19-5.9-3.34-8.06z"/></svg>
+        Chamar vendedor
+      </a>
+      <p class="aviso-botao">Atendimento pelo WhatsApp em horário comercial.</p>
+    </div>
+  </section>
+
+  <section class="bloco-secao">
+    <div class="container">
+      <p class="rotulo">Como funciona</p>
+      <h2>Seu pedido em 3 passos</h2>
+      <div class="grade">
+        <div class="bloco">
+          <div class="numero">01</div>
+          <h3>Chame o vendedor</h3>
+          <p>Toque no botão e a conversa abre direto no WhatsApp, com a mensagem pronta.</p>
+        </div>
+        <div class="bloco">
+          <div class="numero">02</div>
+          <h3>Diga o que precisa</h3>
+          <p>Itens, tamanhos e quantidades. O vendedor confirma estoque e condições do Esquenta Black.</p>
+        </div>
+        <div class="bloco">
+          <div class="numero">03</div>
+          <h3>Retire ou receba</h3>
+          <p>Retire numa das lojas Invictus em Juiz de Fora ou Belo Horizonte, ou combine o envio.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="bloco-secao fechamento">
+    <div class="container">
+      <p class="rotulo">Esquenta Black</p>
+      <h2>As condições valem por pouco tempo</h2>
+      <p>Fabricação própria em Minas Gerais desde 1997. Fale com quem entende de uniforme.</p>
+      <a class="botao-zap js-zap" href="#" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M17.47 14.38c-.3-.15-1.75-.86-2.02-.96-.27-.1-.47-.15-.67.15-.2.3-.77.96-.94 1.16-.17.2-.35.22-.64.07-.3-.15-1.25-.46-2.38-1.47-.88-.79-1.47-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.6-.92-2.2-.24-.58-.49-.5-.67-.5h-.57c-.2 0-.52.07-.8.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.08.15.2 2.1 3.2 5.08 4.49.71.3 1.27.49 1.7.63.72.23 1.37.2 1.88.12.57-.09 1.75-.72 2-1.41.25-.69.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35zM12.04 21.5h-.01a9.45 9.45 0 0 1-4.82-1.32l-.35-.2-3.58.94.96-3.49-.23-.36a9.43 9.43 0 0 1-1.45-5.04c0-5.22 4.25-9.47 9.48-9.47a9.4 9.4 0 0 1 6.7 2.78 9.4 9.4 0 0 1 2.77 6.7c0 5.22-4.25 9.46-9.47 9.46zm8.06-17.53A11.33 11.33 0 0 0 12.04.63C5.76.63.65 5.74.65 12.02c0 2.01.52 3.97 1.52 5.7L.55 23.63l6.05-1.59a11.37 11.37 0 0 0 5.44 1.39h.01c6.28 0 11.39-5.11 11.39-11.39 0-3.04-1.19-5.9-3.34-8.06z"/></svg>
+        Chamar vendedor
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="rodape">
+  <div class="container">
+    <address>
+      <span class="razao-social">MEIA LUA E D BARRETO CONFECCOES LTDA</span>
+      CNPJ 01.710.455/0001-63<br>
+      Rua General Deschamps Cavalcanti, 53, A — Fábrica — Juiz de Fora/MG — CEP 36080-220<br>
+      E-mail: <a href="mailto:contato@meialuadbarreto.com.br">contato@meialuadbarreto.com.br</a> ·
+      <a href="https://meialuadbarreto.com.br/privacidade">Política de Privacidade</a>
+    </address>
+    <p class="assinatura">© 2026 MEIA LUA E D BARRETO CONFECCOES LTDA — CNPJ 01.710.455/0001-63. Todos os direitos reservados. INVICTUS é marca de titularidade de terceiro, utilizada mediante licença nas lojas de Juiz de Fora e Belo Horizonte.</p>
+  </div>
+</footer>
+
+<script>
+  /* ================================================================
+     CONFIGURAÇÃO — altere só aqui
+     NUMERO: 55 + DDD + número, só dígitos (sem espaço, traço ou +)
+     MENSAGEM: texto que já aparece digitado para o cliente
+     ================================================================ */
+  var NUMERO = "5532984074664";
+  var MENSAGEM = "Olá, vi o Esquenta Black e quero fazer um pedido.";
+
+  var link = "https://wa.me/" + NUMERO + "?text=" + encodeURIComponent(MENSAGEM);
+
+  document.querySelectorAll(".js-zap").forEach(function (botao) {
+    botao.href = link;
+    botao.addEventListener("click", function () {
+      // Contagem de cliques (só funciona se o Pixel/Analytics estiver instalado no <head>)
+      try { if (window.fbq) fbq("track", "Contact"); } catch (e) {}
+      try { if (window.gtag) gtag("event", "chamar_vendedor"); } catch (e) {}
+    });
+  });
+</script>
+
+</body>
+</html>
